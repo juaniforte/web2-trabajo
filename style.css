@@ -1,0 +1,209 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: rgba(39, 18, 0, 0.91);
+	overflow-x: hidden;
+	background-image: url("img/fondo.jpg");
+	background-attachment: fixed;
+}
+
+a{
+	color: #291701;
+	font-weight: bold;
+}
+
+/* Header */
+header{
+	background-color: rgb(39,39,39);
+	padding-top: 18px;
+}
+
+.social-header {
+	margin-top: 12px;
+}
+
+.social-header a {
+	color: #fff;
+}
+
+.social-header a .fa-inverse {
+	color: #2a1000;
+}
+
+.menu-bar {
+	background-color: #ff6a00;
+	margin-top: 15px;
+}
+.menu-bar a {
+	color: #3e3e3e;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.menu-bar a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu-list {
+	padding: 3px;
+	margin-bottom: 3px;
+}
+.menu-list > li:not(:last-child) {
+	margin-right: 40px;
+}
+
+/* Content */
+
+.encabezado{
+	color: white;
+	text-align: center;
+	margin-bottom:30px;
+}
+
+table{
+	background-color: white;
+	border-radius: 10px;
+}
+
+/* Main */
+
+.contenedor{
+	background-color: rgba(39, 39, 39, 0.85);
+}
+
+.contenido{
+	margin-top: 20px;
+	/* padding-top: 200px; */
+}
+
+#main > .container {
+	box-shadow: 0 7px 18px rgba(0, 0, 0, .5);
+}
+
+/* Carousel */
+#slider-home {
+	margin-bottom: -55px;
+	padding-top: 15px;
+}
+
+.carousel-caption {
+	background-color: rgba(41, 23, 1, 0.75);
+	height: 100%;
+	left: 70%;
+	top: 0;
+	padding: 30px 45px;
+	text-align: left;
+	width: 340px;
+}
+
+.carousel-caption p {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.carousel-caption h2 {
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.carousel-caption .h4 {
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: 8px;
+}
+
+.carousel-caption img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.carousel-caption a {
+	border-radius: 0;
+	font-weight: bold;
+	color: #291701;
+	border: none;
+}
+
+/* Info content */
+h4{
+	color: white;
+}
+
+h3 {
+	font-size: 24px;
+	border-bottom: 1px solid #9e9e9e;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	color: white;
+}
+h3 i {
+	color: #929292;
+}
+
+p {
+	font-size: 16px;
+	color: #a5a5a5;
+}
+
+/* Footer */
+footer {
+	background-color: #FFAA00;
+	font-size: 12px;
+	padding: 10px 0;
+}
+
+footer ul {
+	margin-bottom: 0;
+}
+
+footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Footer sidebars */
+.sidebars-zone {
+	background-color: rgba(201, 201, 201, 0.37);
+	padding-top: 20px;
+}
+.sidebars-zone h3 {
+	font-size: 20px;
+	border-bottom: 1px solid #9e9e9e;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+.sidebars-zone a {
+	margin-bottom: 18px;
+	display: block;
+}
+
+.sidebars-zone a:hover {
+	color: #000;
+}
+
+.foto{
+	display:block;
+	margin:auto;
+	border-radius: 8px;
+	padding-top: 5px;
+}
+/* Helpers */
+.mar-top-80 {
+	margin-top: 80px;
+}
+
+.red{
+	background-color: red;
+	font-size: 67px;
+}
+
+.loginCaja{
+	padding-bottom: 80px;
+}
+
+.inscripcionCaja{
+	padding-bottom: 200px;
+}
