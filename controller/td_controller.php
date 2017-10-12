@@ -115,10 +115,14 @@ class td_controller
     session_start();
     $categorias = $this->model->getCategorias();
     if ( (!empty($_SESSION["permiso"]))   && $_SESSION["permiso"]==2){
-        $this->view->categorias();
+      $categorias = $this->model->getCategorias();
+      $vehiculos = $this->model->getVehiculo();
+      $this->view->categorias($categorias, $vehiculos);
 
     }elseif ( (!empty($_SESSION["permiso"]))   && $_SESSION["permiso"]==1){
-        $this->view->vehiculos();
+      $categorias = $this->model->getCategorias();
+      $vehiculos = $this->model->getVehiculo();
+      $this->view->vehiculos($categorias, $vehiculos);
     }else{
       $categorias = $this->model->getCategorias();
       $vehiculos = $this->model->getVehiculo();
