@@ -35,8 +35,9 @@ class td_view
     $this->smarty->display('templates/multimedia.tpl');
   }
 
-  function inscripcion(){
-    //$this->smarty->assign('categorias', $categorias);
+  function inscripcion($categorias, $vehiculos){
+    $this->smarty->assign('categorias', $categorias);
+    $this->smarty->assign('vehiculos', $vehiculos);
     $this->smarty->display('templates/inscripcion.tpl');
   }
 

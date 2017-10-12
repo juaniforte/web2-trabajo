@@ -120,7 +120,9 @@ class td_controller
     }elseif ( (!empty($_SESSION["permiso"]))   && $_SESSION["permiso"]==1){
         $this->view->vehiculos();
     }else{
-      $this->view->inscripcion();
+      $categorias = $this->model->getCategorias();
+      $vehiculos = $this->model->getVehiculo();
+      $this->view->inscripcion($categorias, $vehiculos);
       //print_r($hash = password_hash('123', PASSWORD_DEFAULT));
     }
     // if ($_SESSION["permiso"]=2){
